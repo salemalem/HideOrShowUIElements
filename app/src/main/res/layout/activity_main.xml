@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.179" />
 
     <Button
-        android:id="@+id/hideHelloWorldTextView"
+        android:id="@+id/hide_or_show_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -30,17 +30,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloWorldTextView" />
-
-    <Button
-        android:id="@+id/showHelloWorldTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:onClick="hide_or_show"
-        android:text="@string/show"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hideHelloWorldTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
